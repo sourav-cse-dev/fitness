@@ -226,3 +226,40 @@ section {
   line-height: 18px;
 }
 /* change-habit section styles ends here*/
+
+/* run-extra-mile section styles starts here */
+.run-extra {
+  margin-top: 100px;
+  border-radius: 18px;
+  padding: 30px 30px 30px 50px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  gap: 190px;
+  justify-content: space-between;
+}
+
+.run-extra > .texts {
+  margin: 0;
+  max-width: 27.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.run-extra .section-heading {
+  text-align: left;
+  margin: 0;
+}
+
+.image-section {
+  max-width: 45%;
+  min-width: 350px;
+  height: 280px;
+  background-image: url(./images/run.jpg);
+  background-size: 300%;
+  background-position: 70% 34%;
+  border-radius: 18px;
+}
+/* run-extra-mile section styles ends here */
