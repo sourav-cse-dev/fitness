@@ -520,3 +520,119 @@ hr {
   margin-bottom: 24px;
 }
 /* shared styles ends here*/
+
+/* media-queries section styles starts here */
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .banner {
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .banner-heading {
+    font-size: 2.25rem;
+  }
+
+  .banner-heading,
+  .banner-desc {
+    max-width: 255px;
+  }
+
+  .workouts {
+    top: 65px;
+    right: -30px;
+    width: 146px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tutorials {
+    width: 156px;
+    height: 74px;
+    top: 255px;
+    left: 25px;
+  }
+
+  .tutorials > .red-circle {
+    height: 30px;
+    width: 30px;
+  }
+
+  .count {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 3px;
+  }
+
+  .workout-desc,
+  .tutorial-desc {
+    font-size: 10px;
+  }
+
+  .section-heading {
+    font-size: 32px;
+  }
+
+  .schedule-habits {
+    flex-direction: column;
+  }
+
+  .run-extra {
+    margin-top: 66px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .texts .section-heading {
+    font-size: 32px;
+  }
+
+  .image-section {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .primary-btn {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .bmi-heading .texts {
+    margin: 30px 0px;
+  }
+
+  .calculate-bmi {
+    margin-top: -34px;
+  }
+
+  .chart .bmi-heading {
+    margin-bottom: 24px;
+  }
+
+  .calculate-bmi {
+    margin-top: -34px;
+  }
+
+  .calculate-bmi .container {
+    flex-direction: column;
+  }
+}
+/* media-queries section styles ends here */
